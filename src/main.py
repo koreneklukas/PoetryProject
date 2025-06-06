@@ -1,5 +1,4 @@
-import requests
-from application.application import Application
+from src.application.application import Application
 
 
 def main():

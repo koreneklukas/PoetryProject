@@ -5,5 +5,5 @@ class Application:
 
 	def cycle(self):
 
-		for i in range(6):
+		for i in range(10):
 			print(i)
