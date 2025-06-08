@@ -1,5 +1,5 @@
 import pytest
-from src.application.application import Application
+from application.application import Application
 # kjllk
 
 app = Application()
