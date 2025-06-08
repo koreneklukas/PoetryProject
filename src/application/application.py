@@ -1,9 +1,17 @@
-
 class Application:
-	def hello(self):
-		print("Hello world")
 
-	def cycle(self):
+	def math_operation_summation(self, a, b) -> int:
+		summation = a + b
+		return summation
 
-		for i in range(10):
-			print(i)
+	def math_operation_division(self, a, b) -> int:
+		division = a / b
+		return division
+
+	def math_operation_multiplication(self, a, b) -> int:
+		multiplication = a * b
+		return multiplication
+
+	def math_operation_subtraction(self, a, b) -> int:
+		subtraction = a - b
+		return subtraction
