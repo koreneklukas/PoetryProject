@@ -12,8 +12,8 @@ dependencies = [
     "pytest (>=8.4.0,<9.0.0)"
 ]
 
-[tool.poetry]
-packages = [{include = "muj_projekt", from = "src"}]
+#[tool.poetry]
+#packages = [{include = "muj_projekt", from = "src"}]
 
 
 [build-system]
