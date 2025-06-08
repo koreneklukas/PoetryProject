@@ -1,5 +1,5 @@
 [project]
-name = "muj-projekt"
+name = "PoetryProject"
 version = "0.1.0"
 description = ""
 authors = [
@@ -13,7 +13,10 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "muj_projekt", from = "src"}]
+packages = [
+    { include = "application", from = "src" },
+    {include = "api", from = "src"}
+]
 
 
 [build-system]
